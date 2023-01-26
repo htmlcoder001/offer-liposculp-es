@@ -1,10 +1,8 @@
 #order_form {
-  background: rgb(242, 243, 246) none repeat scroll 0% 0%;
-  background-image: url('../images/hologram.png'), url('../images/formbg.jpg');
+  background: #E08887;
   padding: 35px 20px;
   max-width: 662px;
   font-family: Arial;
-  margin: 20px auto;
   background-repeat: no-repeat;
   background-size: 10% auto, 100% 100%;
   background-position: 4% 23px, center;
@@ -152,11 +150,7 @@
 
   text-decoration: none;
 
-  box-shadow: 0 4px 15px 0 rgba(129, 150, 160, 0.45);
-
-  border-radius: 5px;
-
-  background-color: #0299ff;
+  background-color: #000000;
 
   background-position: 1.35em 0.94em;
 
@@ -174,6 +168,8 @@
 
   margin-top: 20px;
   font-family: sans-serif;
+  width: 100%;
+  max-width: 300px;
 }
 
 #order_form button:hover,
