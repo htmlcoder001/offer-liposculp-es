@@ -461,6 +461,26 @@ a:hover {
     margin: 0;
 }
 
+.text-strikethrough {
+    position: relative;
+    color: #676767;
+}
+.text-strikethrough:before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: red;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .header {
     background-color: #ffffff;
     box-shadow: rgb(0 0 0 / 10%) -2px 2px 5px;
